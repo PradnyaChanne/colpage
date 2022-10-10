@@ -5,7 +5,7 @@ function Intern() {
   return (
     <div>
       <div className="intern">
-            <h2 className="int">Intern</h2>
+            <h2 className="int">Interns and our family</h2>
             <InApp/>
         </div>
     </div>

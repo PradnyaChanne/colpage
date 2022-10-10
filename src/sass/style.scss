@@ -7,8 +7,8 @@ body{
     left: 30px;
     right: 30px;
     top: 130px;
-    background: url("../../public/img/teamplayerorbit.png");
-    background-size: cover;
+    background: url("../../public/img/teamplayerorbit.png") no-repeat;
+    // background-size: contain ;
     opacity: 0.5;
     border-radius: 50px;
 }

@@ -5,11 +5,11 @@ import LeDetail from "./leaddetail";
 function LeCard(props) {
   return (
     <div className="card">
-      <div className="top">
-        <h2 className="name">{props.name}</h2>
+      <div className="left">
         <LeAvatar img={props.img} />
       </div>
       <div className="bottom">
+        <h2 className="name">{props.name}</h2>
         <LeDetail detailInfo={props.roles} />
         <LeDetail detailInfo={props.email} />
       </div>

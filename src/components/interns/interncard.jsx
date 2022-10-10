@@ -5,15 +5,16 @@ import InDetail from "./interndetail";
 function InCard(props) {
   return (
     <div className="card">
-      <div className="top">
-        <h2 className="name">{props.name}</h2>
+      <div className="left">
         <InAvatar img={props.img} />
       </div>
+      
       <div className="bottom">
+        <h2 className="name">{props.name}</h2>
         <InDetail detailInfo={props.roles} />
         <InDetail detailInfo={props.email} />
       </div>
-    </div>
+</div>
   );
 }
 

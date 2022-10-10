@@ -5,11 +5,12 @@ import LDetail from "./leaderdetail";
 function LCard(props) {
   return (
     <div className="card">
-      
-        <h2 className="name">{props.name}</h2>
+      <div className="left">
         <LAvatar img={props.img} />
+      </div>
       
       <div className="bottom">
+        <h2 className="name">{props.name}</h2>
         <LDetail detailInfo={props.roles} />
         <LDetail detailInfo={props.email} />
       </div>
