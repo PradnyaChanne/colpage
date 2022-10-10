@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+}
+.page{
+    width: 100%;
+    height: 60vh;
+    left: 30px;
+    right: 30px;
+    top: 130px;
+    background: url("../../public/img/teamplayerorbit.png");
+    background-size: cover;
+    opacity: 0.5;
+    border-radius: 50px;
+}
+.heading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 144px;
+    text-align: center;
+    color: #fff;
+}
+.leader{
+    width: 100%;
+    height: 30%;
+    left: 10px;
+    background: #3A3D41;
+    border-radius: 50px;
+}
+.ldr{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 96px;
+    text-align: center;
+    color: #27A3FE;
+}
+.lead{
+    width: 100%;
+    height: 30%;
+    left: 10px;
+    background: #3A3D41;
+    border-radius: 50px;
+}
+.ld{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 96px;
+    text-align: center;
+    color: #27A3FE;
+}
+.intern{
+    width: 100%;
+    height: 30%;
+    left: 10px;
+    background: #3A3D41;
+    border-radius: 50px;
+}
+.int{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 96px;
+    text-align: center;
+    color: #27A3FE;
+}
+

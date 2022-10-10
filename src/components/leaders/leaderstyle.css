@@ -1,0 +1,93 @@
+body {
+  font-family: sans-serif;
+  margin: auto auto;
+  padding: 25px;
+  max-width: 400px;
+  min-width: 400px;
+  background-color: black;
+  text-align: center;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2em;
+  color: #f5f8f9;
+  margin: 20px 0 30px;
+}
+
+.card {
+  position: relative;
+  display: inline-block;
+  width: 396px;
+  height: 264px;
+  left: 10px;
+  top: 10px;
+  background: #2C2C2C;
+  border-radius: 50px;
+}
+
+.leads {
+  position: absolute;
+  width: 1678px;
+  height: 407px;
+  left: 100px;
+  top: 92px;
+  background: #3A3D41;
+  border-radius: 50px;
+}
+
+.top {
+  border-radius: 25px 25px 0 0;
+  height: 100px;
+  width: 100%;
+  background-color: #2C2C2C;
+  position: absolute;
+  top: 60;
+  left: 0;
+  display: flex;
+}
+
+.name {
+  position: absolute;
+  width: 119px;
+  height: 40px;
+  left: 212px;
+  top: 43px;
+  font-family: "Martel";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+.card img {
+  margin: 30px 20px 0 0;
+}
+
+.circle-img {
+  border-radius: 50px;
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  left: 6px;
+  top: 23px;
+}
+
+.bottom {
+  margin-top: 120px;
+}
+
+.info {
+  position: absolute;
+  width: 51px;
+  height: 30px;
+  left: 212px;
+  top: 144px;
+  font-family: "Martel";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  color: #FFFFFF;
+}/*# sourceMappingURL=leaderstyle.css.map */
