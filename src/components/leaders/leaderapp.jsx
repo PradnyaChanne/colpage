@@ -9,7 +9,8 @@ function createCard(contact) {
       name={contact.name}
       img={contact.src}
       roles={contact.role}
-      email={contact.email}
+      linkedin={contact.Linkedin}
+      github={contact.github}
     />
   );
 }

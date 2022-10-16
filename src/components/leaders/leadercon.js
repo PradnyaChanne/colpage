@@ -1,27 +1,30 @@
+import { FaGithub } from 'react-icons/fa';
+import { FaLinkedin } from 'react-icons/fa';
+
 const contacts = [
     {
       id: 1,
-      name: "Vidhanshu Borade",
+      name: "Jeet Chandewal",
       src:
-        "../img/vidhanshu.jpg",
-      role: "Frontend Developer",
-      email: "vidhan@gmail.com"
+        "../img/Jeet Chandewal.jpg",
+      role: "Frontend Development and UI/UX",
+      Linkedin: <button><a href="https://www.linkedin.com/in/jeet-chandewal-319574219"><FaLinkedin size={20}/></a></button>
     },
     {
       id: 2,
-      name: "Sanika Peshkar",
+      name: "Saurabh Masalkar",
       src:
-        "../img/sanika.jpg",
-      role: "Frontend Developer",
-      email: "sanika@gmail.com"
+      "../img/Saurabh Masalkar.png",
+      role: "Operations",
+      Linkedin: <button><a href="https://www.linkedin.com/in/saurabh-masalkar-099682218"><FaLinkedin size={20}/></a></button>
     },
     {
       id: 3,
-      name: "Pradnya Channe",
+      name: "Parth Sharma ",
       src:
-        "../img/pradnya.jpg",
-      role: "Frontend Developer",
-      email: "p02.channe@gmail.com"
+      "../img/Parth Sharma.jpeg",
+      role: "Social media",
+      Linkedin: <button><a href="https://www.linkedin.com/in/parth-sharma-a0947419a"><FaLinkedin size={20}/></a></button>
     }
   ];
   

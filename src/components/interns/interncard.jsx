@@ -12,7 +12,11 @@ function InCard(props) {
       <div className="bottom">
         <h2 className="name">{props.name}</h2>
         <InDetail detailInfo={props.roles} />
-        <InDetail detailInfo={props.email} />
+        <div id="id">
+          <InDetail detailInfo={props.linkedin} />
+          <InDetail detailInfo={props.github} />
+
+        </div>
       </div>
 </div>
   );

@@ -12,9 +12,12 @@ function LCard(props) {
       <div className="bottom">
         <h2 className="name">{props.name}</h2>
         <LDetail detailInfo={props.roles} />
-        <LDetail detailInfo={props.email} />
-      </div>
-</div>
+        <div id="id">
+          <LDetail detailInfo={props.linkedin} />
+          <LDetail detailInfo={props.github} />
+        </div>
+    </div>
+    </div>
   );
 }
 
