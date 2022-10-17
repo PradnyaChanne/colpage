@@ -1,4 +1,3 @@
-import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 
 const contacts = [
@@ -25,6 +24,14 @@ const contacts = [
       "../img/Parth Sharma.jpeg",
       role: "Social media",
       Linkedin: <button><a href="https://www.linkedin.com/in/parth-sharma-a0947419a"><FaLinkedin size={20}/></a></button>
+    },
+    {
+      id: 3,
+      name: "Mayank Khandelwal",
+      src:
+      "../img/MAYANK KHANDELWAL.jpg",
+      role: "Social media",
+      Linkedin: <button><a href="https://www.linkedin.com/in/mayank-khandelwal-7070a719b/"><FaLinkedin size={20}/></a></button>
     }
   ];
   
